@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-header {
+  /* background: url(https://picsum.photos/1920/1920/?dslr) center center no-repeat; */
+  /* background: url("../src/assets/wp4991569.webp") center center no-repeat; */
+  background: url("../src/assets/images/BgImages/DSC_0199.jpg") center center no-repeat ;
+  background-attachment: fixed;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bg-quote {
+  /* background: url(https://picsum.photos/1600/1600/?random) center center no-repeat; */
+  /* background: url("../src/assets/541938.jpg") center center no-repeat ; */
+  background: url("../src/assets/images/BgImages/DSC_0336.jpg") center center no-repeat ;
+  background-attachment: fixed;
+}
+hr {
+  border: none;
+  height: 0.5px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: 'Aganist';
+  src: url('../src/assets/fonts/against\ regular.ttf');
+}
+.myfont{
+  font-family: 'Aganist';
 }
