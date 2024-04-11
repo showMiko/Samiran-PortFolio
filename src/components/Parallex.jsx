@@ -1,6 +1,7 @@
 import React from 'react'
 import insta from "../assets/instagram.png"
 import mail from "../assets/gmail-logo.png"
+import PdfViewer from './PdfViewer'
 const Parallex = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Parallex = () => {
     <p className='font-serif leading-normal mx-auto py-0 px-4 max-w-lg text-3xl'>About me</p>
     <hr/>
     <p class="mb-4 text-lg">Hi, I'm Samiran, a photographer and aspiring filmmaker based in Bardhaman. With experience as a freelance photographer for renowned establishments such as Madam G, Soyyumindia, and Naalayak, along with various campaigns, I bring a keen eye for capturing the essence of diverse environments.
-?</p>
+</p>
 
 </div>
 
@@ -46,6 +47,11 @@ const Parallex = () => {
   <p class="mb-4 text-lg">My passion for photography has been a lifelong journey, culminating in a profound realization during my documentary project in 2020, focusing on the people of Samshernagar, a village nestled in the Sunderbans. This experience solidified my dedication to the art form and its ability to unveil the beauty in the ordinary.
 </p>
   <p class="mb-4 text-lg">My portfolio encompasses a wide range of subjects, as I believe in embracing the spontaneity of life without confining myself to any specific genre. From the bustling energy of concerts to the intimate moments in restaurants, I strive to encapsulate the unique narratives that unfold before my lens. Welcome to my world of capturing moments that transcend the mundane and celebrate the extraordinary.</p>
+</div>
+<div> 
+  <div className='mb-12'>
+    <PdfViewer/>
+  </div>
 </div>
     </>
 

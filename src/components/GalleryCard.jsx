@@ -12,7 +12,7 @@ const GalleryCard = ({ data }) => {
   };
 
   return (
-    <div className="flex min-h-screen w-full flex-wrap content-center justify-center p-5 bg-gray-200">
+    <div className="flex min-h-screen w-full flex-wrap content-center justify-center p-5 bg-gray-200 z-10">
       <div className="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {data.map((item, index) => (
           <div key={index} className="relative bg-white p-3">
